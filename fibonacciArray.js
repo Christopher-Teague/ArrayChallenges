@@ -1,7 +1,7 @@
 function fibonacciArray(n) {
     // the [0, 1] are the starting values of the array to calculate the rest from
     var fibArr = [0, 1];
-    var x = fibArr.length
+    var x = fibArr.length;
     
     for (var i = 0; i < (n-x); i++) {
         fibArr.push(fibArr[i]+fibArr[i+1]);
